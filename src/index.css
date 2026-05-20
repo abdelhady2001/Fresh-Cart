@@ -1,0 +1,15 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+@import "tailwindcss";
+
+@utility container {
+    margin-inline: auto;
+   
+}
+
+.row{
+    @apply flex flex-wrap
+}
+.btn{
+    @apply bg-blue-600 text-white font-bold text-lg rounded-lg px-4 py-3
+}
